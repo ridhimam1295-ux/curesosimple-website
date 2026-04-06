@@ -17,10 +17,15 @@ body {
 }
 
 .hero button {
-  background: #F5A623;
+  background: #1E3A8A;   /* dark blue */
+  color: white;
   border: none;
   padding: 12px 20px;
   font-weight: bold;
+  border-radius: 6px;
+}
+.hero button:hover {
+  background: #142c6e;
 }
 
 /* HOOK */
