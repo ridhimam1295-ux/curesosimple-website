@@ -45,18 +45,6 @@ body {
   text-align: center;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
-.grid div {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-}
-
 /* STEPS */
 .steps {
   background: #FFF4EC;
@@ -153,15 +141,17 @@ body {
 }
 
 .condition-card {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
+  background: linear-gradient(135deg, #ffb347, #8e44ad);
+  color: white;
+  padding: 18px;
+  border-radius: 12px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  text-align: center;
 }
 
 .condition-card:hover {
-  background: #6a0dad;
-  color: white;
+  transform: scale(1.05);
+  opacity: 0.9;
 }
