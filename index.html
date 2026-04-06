@@ -107,8 +107,17 @@
 <!-- FORM -->
 <section class="form" id="form">
   <h2>Book Consultation</h2>
-  <input type="text" placeholder="Name">
-  <input type="tel" placeholder="Phone">
+<input type="text" id="name" placeholder="Name" required>
+<input type="tel" id="phone" placeholder="Phone" required>
+<input type="number" id="age" placeholder="Age">
+<select id="gender">
+  <option value="">Gender</option>
+  <option>Male</option>
+  <option>Female</option>
+</select>
+<input type="email" id="email" placeholder="Email">
+<input type="text" id="problem" placeholder="Your Problem (e.g. PCOS, Hair loss)">
+<button onclick="sendToWhatsApp()">Submit</button>
   <button onclick="sendToWhatsApp()">Submit</button>
 </section>
 
