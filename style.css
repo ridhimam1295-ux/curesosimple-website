@@ -141,7 +141,8 @@ body {
 }
 
 .condition-card {
-  background: white;
+  background: #f3e8ff; /* light purple */
+  color: #4A148C;      /* dark purple text */
   padding: 15px;
   border-radius: 10px;
   font-weight: bold;
