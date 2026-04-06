@@ -154,3 +154,61 @@ body {
   background: #e0e0e0;  /* slightly darker grey */
   transform: scale(1.03);
 }
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: white;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* LEFT SIDE */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+.logo-img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+/* BRAND TEXT */
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* BIG BRAND NAME */
+.brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #4A148C; /* purple */
+  line-height: 1;
+}
+
+/* TAGLINE */
+.tagline {
+  font-size: 11px;
+  color: #777;
+}
+
+/* NAV LINKS */
+.nav-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #4A148C;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #F5A623; /* golden */
+}
