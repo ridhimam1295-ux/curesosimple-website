@@ -284,15 +284,48 @@ body {
 }
 
 /* TESTIMONIAL */
-.testimonial-container {
-  display: flex;
-  border: 1px solid #ddd;
-  padding: 15px;
+.testimonials {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f9f9f9;
 }
 
-.testimonial-container img {
-  width: 80px;
-  margin-right: 10px;
+.testimonial-slider {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+
+.testimonial {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 14px;
+  color: #333;
+}
+
+.testimonial.active {
+  display: flex;
+}
+
+.testimonial-controls button {
+  margin: 10px;
+  padding: 8px 15px;
+  background: #1E3A8A;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 /* INSTAGRAM */
