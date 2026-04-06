@@ -258,3 +258,45 @@ body {
   color: #333;
   font-weight: 500;
 }
+
+/* FOUNDER */
+.founder {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+.founder-img {
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+/* GALLERY */
+.gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* TESTIMONIAL */
+.testimonial-container {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.testimonial-container img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+/* INSTAGRAM */
+.instagram {
+  text-align: center;
+  padding: 20px;
+}
