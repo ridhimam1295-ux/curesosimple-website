@@ -4,10 +4,20 @@ function scrollToForm() {
   });
 }
 function sendToWhatsApp() {
-  let name = document.querySelector('input[type="text"]').value;
-  let phone = document.querySelector('input[type="tel"]').value;
+  let name = document.getElementById("name").value;
+  let phone = document.getElementById("phone").value;
+  let age = document.getElementById("age").value;
+  let gender = document.getElementById("gender").value;
+  let email = document.getElementById("email").value;
+  let problem = document.getElementById("problem").value;
 
-  let message = `Name: ${name}, Phone: ${phone}`;
+  let message = `New Patient:
+Name: ${name}
+Phone: ${phone}
+Age: ${age}
+Gender: ${gender}
+Email: ${email}
+Problem: ${problem}`;
 
   let url = "https://wa.me/918076746392?text=" + encodeURIComponent(message);
 
