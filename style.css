@@ -139,3 +139,29 @@ body {
   font-size: 16px;
   margin-bottom: 8px;
 }
+
+.conditions {
+  padding: 40px 20px;
+  background: #fdf2e9;
+  text-align: center;
+}
+
+.conditions-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.condition-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.condition-card:hover {
+  background: #6a0dad;
+  color: white;
+}
