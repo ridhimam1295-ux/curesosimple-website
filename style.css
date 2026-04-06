@@ -111,3 +111,31 @@ body {
 .whatsapp-btn:hover {
   background: #1ebe5d;
 }
+
+.why {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.why h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.why-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.why-box {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.why-box h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
