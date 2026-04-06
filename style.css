@@ -134,24 +134,26 @@ body {
   text-align: center;
 }
 
+/* NEW CONDITIONS DESIGN */
+
 .conditions-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
+  padding: 20px;
 }
 
 .condition-card {
   background: linear-gradient(135deg, #ffb347, #8e44ad);
   color: white;
-  padding: 18px;
+  padding: 20px;
+  text-align: center;
   border-radius: 12px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-  text-align: center;
 }
 
 .condition-card:hover {
   transform: scale(1.05);
-  opacity: 0.9;
 }
