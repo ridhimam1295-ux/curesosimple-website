@@ -3,3 +3,6 @@ function scrollToForm() {
     behavior: "smooth"
   });
 }
+function openPage(condition) {
+  alert("Opening " + condition + " page");
+}
