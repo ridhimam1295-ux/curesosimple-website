@@ -3,6 +3,16 @@ function scrollToForm() {
     behavior: "smooth"
   });
 }
+function sendToWhatsApp() {
+  let name = document.querySelector('input[type="text"]').value;
+  let phone = document.querySelector('input[type="tel"]').value;
+
+  let message = `Name: ${name}, Phone: ${phone}`;
+
+  let url = "https://wa.me/918076746392?text=" + encodeURIComponent(message);
+
+  window.open(url, "_blank");
+}
 function openPage(condition) {
   alert("Opening " + condition + " page");
 }
