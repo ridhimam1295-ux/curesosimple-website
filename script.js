@@ -7,7 +7,7 @@ function openPage(condition) {
   alert("Opening " + condition + " page");
 }
 function openPage(condition) {
-  let phone = "91XXXXXXXXXX";  // ⚠️ apna number daalo (without +)
+  let phone = "918076746392";  //)
 
   let message = "Hi Doctor, I need consultation";
 
