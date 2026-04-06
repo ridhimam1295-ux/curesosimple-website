@@ -57,3 +57,25 @@ function openPage(condition) {
 
   window.open(url, "_blank");
 }
+let currentIndex = 0;
+const testimonials = document.querySelectorAll(".testimonial");
+
+function showTestimonial(index) {
+  testimonials.forEach((t) => t.classList.remove("active"));
+  testimonials[index].classList.add("active");
+}
+
+function nextTestimonial() {
+  currentIndex = (currentIndex + 1) % testimonials.length;
+  showTestimonial(currentIndex);
+}
+
+function prevTestimonial() {
+  currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+  showTestimonial(currentIndex);
+}
+
+// AUTO SLIDE
+setInterval(() => {
+  nextTestimonial();
+}, 4000);
