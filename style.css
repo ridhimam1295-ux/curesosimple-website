@@ -519,3 +519,15 @@ body {
     grid-template-columns: repeat(2,1fr);
   }
 }
+.hero-service {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1580281658629-2e6f6f84d0d3") center/cover no-repeat;
+  position: relative;
+}
+
+.hero-service::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
