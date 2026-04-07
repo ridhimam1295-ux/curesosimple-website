@@ -437,3 +437,44 @@ body {
   padding:10px;
   margin:8px 0;
 }
+.hero-service {
+  position: relative;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1580281658629-2e6f6f84d0d3") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* DARK OVERLAY for readability */
+.hero-service::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+.availability {
+  background: url("https://images.unsplash.com/photo-1576091160550-2173dba999ef") center/cover no-repeat;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.availability::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+.treatment-section {
+  background: #f8f9fb;
+  padding: 60px 20px;
+}
