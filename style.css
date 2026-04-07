@@ -521,7 +521,12 @@ body {
 }
 .hero-service {
   height: 100vh;
-  background: url("https://images.unsplash.com/photo-1580281658629-2e6f6f84d0d3") center/cover no-repeat;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1580281658629-2e6f6f84d0d3") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
   position: relative;
 }
 
@@ -529,5 +534,15 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+  color: white;
+  z-index: 2;
+  max-width: 50%;
+}
+
+.hero-form {
+  z-index: 2;
 }
