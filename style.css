@@ -546,3 +546,7 @@ body {
 .hero-form {
   z-index: 2;
 }
+.products {
+  max-width: 1200px;
+  margin: auto;
+}
