@@ -23,9 +23,7 @@ Problem: ${problem}`;
 
   window.open(url, "_blank");
 }
-function openPage(condition) {
-  alert("Opening " + condition + " page");
-}
+
 function openPage(condition) {
   let phone = "918076746392";  //)
 
