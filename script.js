@@ -77,3 +77,26 @@ function prevTestimonial() {
 setInterval(() => {
   nextTestimonial();
 }, 4000);
+function sendToWhatsApp() {
+
+  let name = document.getElementById("name").value;
+  let phone = document.getElementById("phone").value;
+  let age = document.getElementById("age").value;
+  let gender = document.getElementById("gender").value;
+  let email = document.getElementById("email").value;
+  let address = document.getElementById("address").value;
+  let problem = document.getElementById("problem").value;
+
+  let message = `New Patient:
+Name: ${name}
+Phone: ${phone}
+Age: ${age}
+Gender: ${gender}
+Email: ${email}
+Address: ${address}
+Problem: ${problem}`;
+
+  let url = "https://wa.me/91807646392?text=" + encodeURIComponent(message);
+
+  window.open(url, "_blank");
+}
