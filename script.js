@@ -77,8 +77,8 @@ function prevTestimonial() {
 setInterval(() => {
   nextTestimonial();
 }, 4000);
-function sendToWhatsApp() {
 
+function sendToWhatsApp() {
   let name = document.getElementById("name").value;
   let phone = document.getElementById("phone").value;
   let age = document.getElementById("age").value;
@@ -96,10 +96,15 @@ Email: ${email}
 Address: ${address}
 Problem: ${problem}`;
 
-  let url = "https://wa.me/91807646392?text=" + encodeURIComponent(message);
+  // WhatsApp
+  let whatsappURL = "https://wa.me/918076746392?text=" + encodeURIComponent(message);
+  window.open(whatsappURL, "_blank");
 
-  window.open(url, "_blank");
+  // Email
+  let mailURL = "mailto: curesosimple@gmail.com?subject=New Patient&body=" + encodeURIComponent(message);
+  window.location.href = mailURL;
 }
+
 // FAQ TOGGLE
 
 const questions = document.querySelectorAll(".faq-question");
