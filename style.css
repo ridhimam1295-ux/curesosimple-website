@@ -608,3 +608,34 @@ body {
   border-radius: 6px;
   display: block;
 }
+.qr-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.qr-box {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.qr-box img {
+  width: 100%;
+  height: auto;
+}
+
+.qr-box p {
+  margin-top: 10px;
+  font-size: 14px;
+}
