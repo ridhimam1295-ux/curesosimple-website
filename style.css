@@ -427,6 +427,11 @@ body {
   padding:20px;
 }
 
+.doctor-card {
+  padding: 20px;
+  width: 200px;
+}
+
 .doctor-card img{
   width:100px;
   border-radius:50%;
